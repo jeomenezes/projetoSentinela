@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+:root{
+
+    --corDestac1: #206FAB;
+    --corDestac2: #094c7e;
+    --cor3: #d1d1d1;
+    --cor4:#FFFFFF;
+    --cor5:#EDEDEA;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+
+}
+
+p{
+
+    text-align: justify;
+
+}
+
+header{
+    position: relative;
+    background-color: var(--cor3);
+    margin-top: 20px;
+    height: 90px;
+    text-align: center;
+    
+}
+
+img#jw-logo{
+    display: inline-block;
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    left: 12px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: .2s ease;
+}
+
+#jw-logo:hover{
+    box-shadow: 0px 3px 12px rgba(4, 76, 158, 0.51), rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+
+header h1{
+    position: absolute;
+    margin: auto 140px;
+    font-weight: bolder;
+    font-size: 2.5em;
+    line-height: 42px;
+    color: rgba(54, 54, 54, 0.878);
+    font-family: serif;
+    text-align: left;
+    width: max-content;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+
+main{
+    overflow: hidden;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cor3);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+    
+}
+
+main section{
+    display: inline-block;
+    width: 80%;
+    background-color: var(--cor4);
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.181) 0px 3px 6px;;
+}
+
+section div{
+    width: 100%;
+    
+
+}
+
+section button{
+    margin: 30px auto;
+    width: 400px;
+
+}
+
+.j-button{
+    
+    width: 300px;
+    height: 50px;
+    border-radius: 0px;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color:  var(--corDestac1);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.273), rgba(0, 0, 0, 0.371) 0px 3px 4px;
+    transition: .2s ease;
+
+}
+
+.j-button:hover{
+    box-shadow: 1px 3px 12px rgba(4, 76, 158, 0.51), rgba(13, 59, 152, 0.618) 1px 3px 12px;
+    
+}
+
+div.card-logo{ 
+    padding: 3px;
+    margin: -40px auto;
+    width: inherit;
+    background-color: var(--cor4);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+
+div.card-text{ 
+    margin: 70px auto;
+    padding: 3px;
+    width: inherit;
+}
+
+div.card-logo img{ 
+    width: 70%;
+    
+}
+
+footer{
+    margin: 0px 0px;
+    padding: 10px 50px 0px 50px;
+    background-color: var(--cor5);  
+}
+
+#logo-footer{
+    width: 150px;
+    height: 130px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: .2s ease;
+}
+
+#logo-footer:hover{
+    box-shadow: 0px 3px 12px rgba(4, 76, 158, 0.51), rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+footer section{
+    display: inline-block;
+    margin-top: 15px;
+    min-width: 300px;
+    max-width: 1050px;
+
+}
+
+#sec-footer-1{
+    display: inline-block;
+    text-align: left;
+    min-width: 300px;
+    padding: 4px;
+
+}
+
+#sec-footer-1 p{
+    border-left: 8px solid;
+    margin: 15px;
+    padding-left: 15px;
+}
+#p-footer1{
+    
+    display: inline-block;
+    color: var(--corDestac1);
+    font-weight: bolder;
+    width: auto;
+   
+}
+
+#p-footer2{
+    display: inline-block;
+    color: var(--corDestac1);
+    font-weight: bolder;
+    text-align: left;
+    width: auto;
+  
+}
+
+#p-footer3{
+    display: inline-block;
+    color: var(--corDestac1);
+    font-weight: bolder;
+    width: auto;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: var(--corDestac1);
+}
+
+#autoria{
+    width: inherit;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #094c7e;
+    margin: 40px -50px 0px -50px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.23) 0px 0px 6px;
+}
+
+#autoria p{
+    text-align: center;
+
+}
+
+
+
